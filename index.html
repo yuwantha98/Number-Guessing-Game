@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h2>Number Guessing Game</h2>
-    <input type="text" id="numberInput" />
-    <input type="button" value="Guess Number" onclick="getNumber()" />
+    <div class="container">
+      <h2>Number Guessing Game</h2>
+      <p>Guess the number between 1 and 10</p>
+      <input type="text" id="numberInput" class="input-field" />
+      <input
+        type="button"
+        value="Guess Number"
+        class="btn"
+        onclick="getNumber()"
+      />
+      <h3 id="print"></h3>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
