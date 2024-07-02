@@ -28,11 +28,17 @@ p {
 }
 
 .input-field {
-  width: 100%;
+  width: 93%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
+}
+
+.range-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .btn {

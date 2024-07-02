@@ -1,5 +1,11 @@
-let randomNumber = Math.floor(Math.random() * 10 + 1);
-console.log(randomNumber);
+function changRange() {
+  let min = parseInt(document.getElementById("numberRangeStart").value);
+  let max = parseInt(document.getElementById("numberRangeEnd").value);
+
+  let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+
+  console.log(randomNumber);
+}
 
 function getNumber() {
   var number = parseInt(document.getElementById("numberInput").value, 10);

@@ -9,7 +9,21 @@
   <body>
     <div class="container">
       <h2>Number Guessing Game</h2>
-      <p>Guess the number between 1 and 10</p>
+      <div class="range-inputs">
+        <input
+          type="text"
+          id="numberRangeStart"
+          class="input-field"
+          value="1"
+        />
+        <input type="text" id="numberRangeEnd" class="input-field" value="10" />
+        <input
+          type="button"
+          value="Chnge range"
+          class="btn"
+          onclick="changRange()"
+        />
+      </div>
       <input type="text" id="numberInput" class="input-field" />
       <input
         type="button"
