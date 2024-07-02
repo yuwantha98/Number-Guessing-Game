@@ -1,5 +1,4 @@
 let randomNumber = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
-console.log(randomNumber);
 
 let guessCount = 0;
 const maxGuesses = 3;
@@ -10,7 +9,6 @@ function changRange() {
 
   randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
   guessCount = 0;
-  console.log(randomNumber);
 }
 
 function getNumber() {
